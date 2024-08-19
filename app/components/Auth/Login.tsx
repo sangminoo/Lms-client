@@ -1,7 +1,7 @@
 "use client";
 
-import { useFormik } from "formik";
 import * as Yup from "yup";
+import { wuseFormik } from "formik";
 import {
   AiOutlineEye,
   AiOutlineEyeInvisible,
@@ -30,7 +30,7 @@ const schema = Yup.object().shape({
 const Login: FC<Props> = ({ setRoute, setOpen, refetch }) => {
   const [show, setShow] = useState(false);
   const [login, { isSuccess, error }] = useLoginMutation();
-  const formik = useFormik({
+  const formik = wuseFormik({
     initialValues: {
       email: "",
       password: "",
