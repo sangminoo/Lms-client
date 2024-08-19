@@ -6,7 +6,7 @@ import ReceiptOutlinedIcon from "@mui/icons-material/ReceiptOutlined";
 import BarChartOutlinedIcon from "@mui/icons-material/BarChartOutlined";
 import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
 import GroupsIcon from "@mui/icons-material/Groups";
-import OnDemandVideoIcon from "@mui/icons-material/OnDemandVideo";
+import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';
 import VideoCallIcon from "@mui/icons-material/VideoCall";
 import WebIcon from "@mui/icons-material/Web";
 import QuizIcon from "@mui/icons-material/Quiz";
@@ -24,7 +24,7 @@ export {
   BarChartOutlinedIcon,
   MapOutlinedIcon,
   GroupsIcon,
-  OnDemandVideoIcon,
+  OndemandVideoIcon,
   VideoCallIcon,
   WebIcon,
   QuizIcon,

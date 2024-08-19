@@ -13,7 +13,7 @@ import {
   BarChartOutlinedIcon,
   MapOutlinedIcon,
   GroupsIcon,
-  OnDemandVideoIcon,
+  OndemandVideoIcon,
   VideoCallIcon,
   WebIcon,
   QuizIcon,
@@ -28,7 +28,7 @@ import { useSelector } from "react-redux";
 import Link from "next/link";
 import Image from "next/image";
 import { useTheme } from "next-themes";
-import { ArrowBackOutlined } from "@mui/icons-material";
+
 
 interface itemProps {
   title: string;
@@ -217,7 +217,7 @@ const Sidebar = () => {
             <Item
               title="Live Courses"
               to="/admin/courses"
-              icon={<OnDemandVideoIcon />}
+              icon={<OndemandVideoIcon />}
               selected={selected}
               setSelected={setSelected}
             />

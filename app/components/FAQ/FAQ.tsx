@@ -13,7 +13,7 @@ const FAQ = () => {
 
   useEffect(() => {
     if (data) {
-      setQuestions(data.layout.faq);
+      setQuestions(data?.layout?.faq);
     }
   }, [data]);
 
@@ -28,7 +28,7 @@ const FAQ = () => {
         </h1>
         <div className="mt-12">
           <dl className="space-y-8">
-            {questions.map((q) => (
+            {questions?.map((q) => (
               <div
                 key={q.id}
                 className={`${

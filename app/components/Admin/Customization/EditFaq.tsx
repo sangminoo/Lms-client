@@ -19,10 +19,9 @@ const EditFaq = () => {
 
   // console.log(data.layout.faq.length);
   const [questions, setQuestions] = useState<any[]>([]);
-
   useEffect(() => {
     if (data) {
-      setQuestions(data.layout.faq);
+      setQuestions(data?.layout?.faq);
     }
 
     if (isSuccess) {
